@@ -1,0 +1,628 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Free Higher English Revision — Scotland</title>
+<meta name="description" content="Free Higher English revision for Scottish pupils (Qualifications Scotland / SQA): 459 practice questions, exam-style answers with marking points, RUAE mock papers, every Scottish set text, critical essay plans, portfolio guidance and flashcards. Updated for 2026–27.">
+<meta property="og:title" content="Free Higher English Revision — Scotland">
+<meta property="og:description" content="Practice questions, RUAE mock papers, Scottish set texts, essay plans and flashcards for Higher English. Free, works offline.">
+<meta property="og:url" content="https://cazzam15.github.io/English/">
+<meta property="og:type" content="website">
+<meta property="og:image" content="https://cazzam15.github.io/English/icon-512.png">
+<link rel="canonical" href="https://cazzam15.github.io/English/">
+<link rel="manifest" href="manifest.json">
+<meta name="theme-color" content="#0065bd">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<meta name="apple-mobile-web-app-title" content="Higher English">
+<link rel="icon" href="icon-192.png">
+<link rel="apple-touch-icon" href="icon-192.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,700;12..96,800&family=Figtree:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/styles.css?v=1">
+<script>
+  // Apply saved appearance before first paint to avoid a flash of the wrong theme
+  try{var _s=JSON.parse(localStorage.getItem('heng_v1')||'{}').settings||{};if(_s.mode==='light'||_s.mode==='dark')document.documentElement.dataset.theme=_s.mode;if(_s.accent)document.documentElement.dataset.accent=_s.accent;}catch(e){}
+</script>
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"WebApplication","name":"Higher English Scotland","url":"https://cazzam15.github.io/English/","applicationCategory":"EducationalApplication","operatingSystem":"Any","isAccessibleForFree":true,
+ "offers":{"@type":"Offer","price":"0","priceCurrency":"GBP"},
+ "description":"Free revision app for Higher English (Qualifications Scotland): RUAE practice, Scottish set texts, critical essay plans, portfolio guidance, mock papers and flashcards.",
+ "audience":{"@type":"EducationalAudience","educationalRole":"student"},
+ "about":{"@type":"Thing","name":"Higher English (Scotland)"},"inLanguage":"en-GB"}
+</script>
+</head>
+<body>
+
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <symbol id="i-practice" viewBox="0 0 24 24"><path d="M12 20h9"/><path d="M16.5 3.5a2.1 2.1 0 0 1 3 3L7 19l-4 1 1-4Z"/></symbol>
+  <symbol id="i-topics" viewBox="0 0 24 24"><rect x="3" y="3" width="7" height="7" rx="1.5"/><rect x="14" y="3" width="7" height="7" rx="1.5"/><rect x="3" y="14" width="7" height="7" rx="1.5"/><rect x="14" y="14" width="7" height="7" rx="1.5"/></symbol>
+  <symbol id="i-worksheets" viewBox="0 0 24 24"><path d="M14 3H7a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V8z"/><path d="M14 3v5h5"/><path d="M9 13h6M9 17h6"/></symbol>
+  <symbol id="i-flashcards" viewBox="0 0 24 24"><rect x="3" y="7" width="14" height="14" rx="2"/><path d="M7 3h12a2 2 0 0 1 2 2v12"/></symbol>
+  <symbol id="i-mock" viewBox="0 0 24 24"><rect x="8" y="2" width="8" height="4" rx="1"/><path d="M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2"/><path d="m9 14 2 2 4-4"/></symbol>
+  <symbol id="i-timer" viewBox="0 0 24 24"><circle cx="12" cy="14" r="8"/><path d="M12 10v4l2 2M10 2h4"/></symbol>
+  <symbol id="i-essay" viewBox="0 0 24 24"><path d="M14 3H7a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V8z"/><path d="M14 3v5h5"/><path d="M8 13h8M8 17h5"/></symbol>
+  <symbol id="i-skills" viewBox="0 0 24 24"><path d="M4 19.5V5a2 2 0 0 1 2-2h12v16H6a2 2 0 0 0-2 2.5Z"/><path d="M8 7h6M8 11h6"/></symbol>
+  <symbol id="i-formulas" viewBox="0 0 24 24"><path d="M18 7V4H6l6 8-6 8h12v-3"/></symbol>
+  <symbol id="i-notepad" viewBox="0 0 24 24"><rect x="4" y="3" width="16" height="18" rx="2"/><path d="M8 8h8M8 12h8M8 16h5"/></symbol>
+  <symbol id="i-progress" viewBox="0 0 24 24"><path d="M3 3v18h18"/><path d="M8 17v-5M13 17V8M18 17v-7"/></symbol>
+  <symbol id="i-resources" viewBox="0 0 24 24"><path d="M10 13a5 5 0 0 0 7.5.5l3-3a5 5 0 0 0-7-7l-1.7 1.7"/><path d="M14 11a5 5 0 0 0-7.5-.5l-3 3a5 5 0 0 0 7 7l1.7-1.7"/></symbol>
+  <symbol id="i-shop" viewBox="0 0 24 24"><path d="M6 7h12l-1 14H7z"/><path d="M9 7a3 3 0 0 1 6 0"/></symbol>
+  <symbol id="i-settings" viewBox="0 0 24 24"><path d="M4 6h9M17 6h3M4 12h3M11 12h9M4 18h11M19 18h1"/><circle cx="15" cy="6" r="2"/><circle cx="9" cy="12" r="2"/><circle cx="17" cy="18" r="2"/></symbol>
+  <symbol id="i-more" viewBox="0 0 24 24"><circle cx="5" cy="12" r="1.2"/><circle cx="12" cy="12" r="1.2"/><circle cx="19" cy="12" r="1.2"/></symbol>
+  <symbol id="i-flame" viewBox="0 0 24 24"><path d="M12 22c4 0 7-2.8 7-6.8 0-4.2-3-6.2-4.2-10.2-1.8 1.6-2.8 3.6-2.8 5.7-1-.8-1.8-2-2-3.7C7.8 9 5 11.6 5 15.2 5 19.2 8 22 12 22z"/></symbol>
+  <symbol id="i-bulb" viewBox="0 0 24 24"><path d="M9 18h6M10 22h4"/><path d="M12 2a7 7 0 0 0-4 12.7c.6.5 1 1.3 1 2.3h6c0-1 .4-1.8 1-2.3A7 7 0 0 0 12 2z"/></symbol>
+  <symbol id="i-arrow" viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"/></symbol>
+  <symbol id="i-back" viewBox="0 0 24 24"><path d="M19 12H5M11 18l-6-6 6-6"/></symbol>
+  <symbol id="i-refresh" viewBox="0 0 24 24"><path d="M21 12a9 9 0 1 1-3-6.7L21 8"/><path d="M21 3v5h-5"/></symbol>
+  <symbol id="i-check" viewBox="0 0 24 24"><path d="m5 12 5 5 9-10"/></symbol>
+  <symbol id="i-x" viewBox="0 0 24 24"><path d="M6 6l12 12M18 6 6 18"/></symbol>
+  <symbol id="i-share" viewBox="0 0 24 24"><path d="M12 3v12M8 7l4-4 4 4"/><path d="M6 11H5a1 1 0 0 0-1 1v8a1 1 0 0 0 1 1h14a1 1 0 0 0 1-1v-8a1 1 0 0 0-1-1h-1"/></symbol>
+  <symbol id="i-external" viewBox="0 0 24 24"><path d="M14 4h6v6M20 4l-9 9"/><path d="M18 14v5a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V7a1 1 0 0 1 1-1h5"/></symbol>
+</svg>
+
+<a class="skip-link" href="#main">Skip to content</a>
+
+<div class="shell">
+
+  <!-- Sidebar (desktop) -->
+  <aside class="sidebar" aria-label="Main navigation">
+    <a class="brand" href="#practice" data-nav="practice">
+      <span class="brand-mark" aria-hidden="true">E</span>
+      <span>
+        <h1 class="brand-name">Higher English <span>Scotland</span></h1>
+        <span class="brand-sub">Higher English revision</span>
+      </span>
+    </a>
+    <nav class="side-nav">
+      <div class="nav-group">
+        <div class="nav-label">Learn</div>
+        <a href="#practice" data-nav="practice"><svg class="ico"><use href="#i-practice"/></svg>Practice</a>
+        <a href="#topics" data-nav="topics"><svg class="ico"><use href="#i-topics"/></svg>Topics</a>
+        <a href="#worksheets" data-nav="worksheets"><svg class="ico"><use href="#i-worksheets"/></svg>Quizzes &amp; worksheets</a>
+        <a href="#flashcards" data-nav="flashcards"><svg class="ico"><use href="#i-flashcards"/></svg>Flashcards</a>
+      </div>
+      <div class="nav-group">
+        <div class="nav-label">Test yourself</div>
+        <a href="#mock" data-nav="mock"><svg class="ico"><use href="#i-mock"/></svg>Mock tests</a>
+        <a href="#timer" data-nav="timer"><svg class="ico"><use href="#i-timer"/></svg>Timed challenge</a>
+      </div>
+      <div class="nav-group">
+        <div class="nav-label">Tools</div>
+        <a href="#guide" data-nav="guide"><svg class="ico"><use href="#i-skills"/></svg>Exam skills guide</a>
+        <a href="#essays" data-nav="essays"><svg class="ico"><use href="#i-essay"/></svg>Essay planner</a>
+        <a href="#notepad" data-nav="notepad"><svg class="ico"><use href="#i-notepad"/></svg>Notepad</a>
+      </div>
+      <div class="nav-group">
+        <div class="nav-label">You</div>
+        <a href="#progress" data-nav="progress"><svg class="ico"><use href="#i-progress"/></svg>Progress</a>
+        <a href="#resources" data-nav="resources"><svg class="ico"><use href="#i-resources"/></svg>Links &amp; tips</a>
+        <a href="#shop" data-nav="shop"><svg class="ico"><use href="#i-shop"/></svg>Resources shop</a>
+        <a href="#settings" data-nav="settings"><svg class="ico"><use href="#i-settings"/></svg>Settings</a>
+      </div>
+    </nav>
+  </aside>
+
+  <div class="main-col">
+    <!-- Top bar -->
+    <header class="topbar">
+      <a class="brand brand-compact" href="#practice" data-nav="practice" aria-hidden="true" tabindex="-1">
+        <span class="brand-mark">E</span><span class="brand-name">Higher English</span>
+      </a>
+      <div class="page-title" id="page-title">Practice</div>
+      <div class="stat-chips">
+        <div class="chip" title="Days in a row you've practised">
+          <svg class="ico ico-flame"><use href="#i-flame"/></svg>
+          <span><b id="hdr-days">0</b> <span class="chip-label">day streak</span></span>
+        </div>
+        <div class="chip chip-goal" title="Today's goal">
+          <svg class="ring" viewBox="0 0 36 36" aria-hidden="true"><circle class="ring-bg" cx="18" cy="18" r="15"/><circle class="ring-fg" id="goal-ring" cx="18" cy="18" r="15" pathLength="100" stroke-dasharray="0 100"/></svg>
+          <span><b id="hdr-daily">0</b>/<span id="hdr-goal">10</span> <span class="chip-label">today</span></span>
+        </div>
+      </div>
+    </header>
+
+    <main id="main" tabindex="-1">
+
+      <!-- PRACTICE -->
+      <section class="panel" id="panel-practice" data-title="Practice">
+        <div class="greeting" id="greeting"></div>
+        <div class="toolbar">
+          <label class="field">
+            <span class="field-label">Topic</span>
+            <select id="topic-select"></select>
+          </label>
+          <div class="field">
+            <span class="field-label" id="type-label">Question type</span>
+            <div class="segmented" role="radiogroup" aria-labelledby="type-label" id="type-seg">
+              <button role="radio" data-type="all" aria-checked="true">All</button>
+              <button role="radio" data-type="quiz" aria-checked="false">Quick quiz</button>
+              <button role="radio" data-type="exam" aria-checked="false">Exam-style</button>
+            </div>
+          </div>
+          <div class="field">
+            <span class="field-label" id="diff-label">Difficulty</span>
+            <div class="segmented" role="radiogroup" aria-labelledby="diff-label" id="diff-seg">
+              <button role="radio" data-diff="mixed" aria-checked="true">Mixed</button>
+              <button role="radio" data-diff="1" aria-checked="false">Easy</button>
+              <button role="radio" data-diff="2" aria-checked="false">Medium</button>
+              <button role="radio" data-diff="3" aria-checked="false">Hard</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="practice-grid">
+          <article class="card q-card" aria-live="polite">
+            <div class="q-meta">
+              <span class="tag tag-topic" id="q-topic-label">Topic</span>
+              <span class="tag" id="q-level">Easy</span>
+              <span class="tag" id="type-badge">Quick quiz</span>
+              <span class="q-num">Question <span id="q-num">1</span></span>
+            </div>
+            <div class="q-text" id="q-text">Loading…</div>
+            <p class="cmd-tip" id="cmd-tip" hidden></p>
+            <form class="answer" id="answer-form" autocomplete="off">
+              <div class="opts" id="q-opts" role="group" aria-label="Answer options"></div>
+              <input class="input input-lg" id="q-input" type="text" hidden aria-hidden="true" tabindex="-1">
+              <label class="sr-only" for="q-written">Your written answer</label>
+              <textarea class="input written-area" id="q-written" rows="7" placeholder="Write your answer as you would in the exam…" hidden></textarea>
+              <div class="btn-row">
+                <button type="submit" class="btn btn-primary" id="check-btn">Check answer</button>
+                <button type="button" class="btn btn-ghost" id="hint-btn"><svg class="ico"><use href="#i-bulb"/></svg>Hint</button>
+                <button type="button" class="btn btn-ghost" id="skip-btn">Skip</button>
+              </div>
+            </form>
+            <div id="feedback-area"></div>
+          </article>
+
+          <aside class="card side-card">
+            <div class="side-stat">
+              <div class="side-num" id="run-streak">0</div>
+              <div class="side-lbl">correct in a row <span class="muted">· best <span id="best-streak">0</span></span></div>
+            </div>
+            <div class="goal">
+              <div class="goal-head"><span>Today's goal</span><span><b id="daily-count">0</b> / <span id="daily-goal-lbl">10</span></span></div>
+              <div class="bar"><div class="bar-fill" id="goal-fill"></div></div>
+            </div>
+            <p class="side-tip"><b>Tip:</b> choose <em>Smart Mix</em> to get more questions on the topics you find hardest.</p>
+            <details class="howto">
+              <summary>How the question types work</summary>
+              <ul>
+                <li><b>Quick quiz:</b> pick an answer (or press 1–4).</li>
+                <li><b>Exam-style:</b> write your answer (RUAE analysis, own-words, final questions), then tick the marking points you made. Half marks or more counts as correct.</li>
+                <li>Exam-style marking points are a guide — other well-argued answers can also gain marks.</li>
+              </ul>
+            </details>
+          </aside>
+        </div>
+      </section>
+
+      <!-- TOPICS -->
+      <section class="panel" id="panel-topics" data-title="Topics" hidden>
+        <p class="lede">Every part of Higher English: RUAE skills, the critical essay, every Scottish set text on the current list, the portfolio and key terminology. Pick a topic to practise it — your accuracy on each is shown below. Don't know your set text yet? Try them all, then focus once your teacher chooses.</p>
+        <div id="topic-grid"></div>
+      </section>
+
+      <!-- WORKSHEETS -->
+      <section class="panel" id="panel-worksheets" data-title="Quizzes &amp; worksheets" hidden>
+        <div id="ws-list">
+          <p class="lede">Each topic has a quick quiz (marked for you). Many also have an exam-style worksheet — write your answers, then mark them against the marking points.</p>
+          <div class="toolbar">
+            <label class="field">
+              <span class="field-label">Area of study</span>
+              <select id="ws-area">
+                <option value="all">All areas</option>
+              </select>
+            </label>
+          </div>
+          <div class="grid-cards" id="sheet-list"></div>
+        </div>
+        <div id="ws-active" hidden></div>
+      </section>
+
+      <!-- FLASHCARDS -->
+      <section class="panel" id="panel-flashcards" data-title="Flashcards" hidden>
+        <div class="toolbar">
+          <label class="field">
+            <span class="field-label">Deck</span>
+            <select id="fc-topic">
+            </select>
+          </label>
+          <button class="btn btn-ghost" id="fc-shuffle"><svg class="ico"><use href="#i-refresh"/></svg>Shuffle</button>
+        </div>
+        <div class="flash-wrap">
+          <button class="flashcard" id="flashcard" aria-live="polite">
+            <span class="fc-face fc-front">
+              <span class="fc-kicker">Key term</span>
+              <span class="fc-term" id="fc-term">Loading…</span>
+              <span class="fc-tap">Tap or press Space to reveal</span>
+            </span>
+            <span class="fc-face fc-back">
+              <span class="fc-kicker" id="fc-term-back"></span>
+              <span class="fc-def" id="fc-def"></span>
+            </span>
+          </button>
+          <div class="fc-nav">
+            <button class="btn btn-ghost" id="fc-prev" aria-label="Previous card"><svg class="ico"><use href="#i-back"/></svg>Prev</button>
+            <span class="fc-count"><span id="fc-idx">1</span> / <span id="fc-tot">1</span></span>
+            <button class="btn btn-primary" id="fc-next">Next<svg class="ico"><use href="#i-arrow"/></svg></button>
+          </div>
+        </div>
+      </section>
+
+      <!-- MOCK EXAM -->
+      <section class="panel" id="panel-mock" data-title="Mock tests" hidden>
+        <div id="mock-home">
+          <p class="lede"><b>RUAE mock papers</b> are laid out like the real Reading for Understanding, Analysis and Evaluation paper: two passages, 30 marks, 1 hour 30 minutes. Write your answers, then mark them yourself against the marking points. The passages were written for this site. <b>Knowledge tests</b> are timed, auto-marked quizzes drawn fresh from the question bank each time (Easy 1 mark, Medium 2, Hard 3).</p>
+          <div class="grid-cards" id="mock-papers"></div>
+          <div class="card" id="mock-prev-scores" hidden></div>
+          <div class="card">
+            <h2 class="card-title">Before you start</h2>
+            <ul class="tips-list">
+              <li><b>Read Passage 1 carefully first</b> — note the writer's line of argument paragraph by paragraph.</li>
+              <li><b>About 2–3 minutes per mark</b> on the Passage 1 questions, leaving about 15 minutes for Passage 2 and the final question.</li>
+              <li><b>Own words means own words.</b> No marks for straight lifts.</li>
+              <li><b>Analysis = quotation + comment.</b> A quotation on its own earns nothing.</li>
+              <li><b>Mark honestly.</b> Only tick a marking point if your answer makes it clearly.</li>
+            </ul>
+          </div>
+        </div>
+
+        <div id="mock-exam" hidden>
+          <div class="card exam-card">
+            <div class="exam-head">
+              <div>
+                <div class="exam-title" id="mock-paper-title">Mock paper</div>
+                <div class="muted small" id="mock-q-counter"></div>
+              </div>
+              <div class="exam-stats">
+                                <span class="exam-clock" id="mock-timer-display">2:15:00</span>
+              </div>
+            </div>
+            <div class="bar bar-thin"><div class="bar-fill" id="mock-prog-bar"></div></div>
+            <div class="qnav-wrap" id="mock-nav" aria-label="Jump to question"></div>
+          </div>
+          <details class="card case-card" id="mock-case-wrap" open>
+            <summary><b>The passages</b> <span class="muted small">(tap to show or hide)</span></summary>
+            <div id="mock-case" class="case-body"></div>
+          </details>
+          <p class="muted small" id="mock-sec2-note" hidden>Question on both passages — read Passage 2 first, then compare it with Passage 1.</p>
+          <div class="card exam-card">
+            <div class="q-meta"><span class="tag tag-topic" id="mock-topic-label"></span><span class="tag tag-given" id="mock-marks-label"></span></div>
+            <div class="q-text q-text-sm" id="mock-q-text"></div>
+            <p class="cmd-tip" id="mock-cmd-tip"></p>
+            <div class="opts" id="mock-opts" role="group" aria-label="Answer options" hidden></div>
+            <label class="sr-only" for="mock-answer">Your answer</label>
+            <textarea class="input written-area" id="mock-answer" rows="10" placeholder="Write your answer…"></textarea>
+            <div class="btn-row" style="margin-top:12px">
+              <button type="button" class="btn btn-ghost" id="mock-prev"><svg class="ico"><use href="#i-back"/></svg>Previous</button>
+              <button type="button" class="btn btn-primary" id="mock-next">Next question</button>
+              <button type="button" class="btn btn-ghost btn-danger" id="mock-end">Finish and mark</button>
+            </div>
+          </div>
+        </div>
+
+        <div id="mock-mark" hidden>
+          <div class="card">
+            <h2 class="card-title">Mark your paper</h2>
+            <p class="muted">For each answer, tick the marking points you made clearly. Each question is capped at its mark allocation. Marking points are a guide — a different, well-supported answer may also deserve the mark. Running total: <b><span id="mark-running">0</span> / <span id="mark-total">30</span></b></p>
+          </div>
+          <div id="mark-list"></div>
+          <div class="btn-row center"><button class="btn btn-primary" id="mark-done">See my grade</button></div>
+        </div>
+
+        <div id="mock-results" hidden>
+          <div class="card result-card">
+            <div class="grade-badge" id="mock-grade-icon">A</div>
+            <h2 class="result-title" id="mock-grade-title">Grade A</h2>
+            <div class="result-score" id="mock-score-display"></div>
+            <div class="muted" id="mock-grade-band"></div>
+            <div class="muted small" id="mock-section-split"></div>
+            <p class="result-msg" id="mock-grade-msg"></p>
+            <div class="btn-row center">
+              <button class="btn btn-primary" id="mock-review-btn">Review marking points</button>
+              <button class="btn btn-ghost" id="mock-back">Back to mock tests</button>
+            </div>
+            <p class="muted small">Grade bands are a rough guide only (A 70%, B 60%, C 50%, D 40%). Your real grade combines RUAE (30%), Critical Reading (40%) and the portfolio (30%), and boundaries are set each year.</p>
+          </div>
+          <div class="card" id="mock-review-section" hidden>
+            <h2 class="card-title">Answer review</h2>
+            <div id="mock-review-list"></div>
+          </div>
+        </div>
+      </section>
+
+      <!-- TIMER -->
+      <section class="panel" id="panel-timer" data-title="Timed challenge" hidden>
+        <div class="card" id="timer-setup">
+          <h2 class="card-title">How many can you get right?</h2>
+          <p class="muted">Quick-fire questions against the clock. Great for drilling techniques, terminology and set-text facts.</p>
+          <label class="field">
+            <span class="field-label">Topic</span>
+            <select id="timer-topic"></select>
+          </label>
+          <div class="btn-row">
+            <button class="btn btn-primary" data-secs="60">1 minute</button>
+            <button class="btn btn-primary" data-secs="120">2 minutes</button>
+            <button class="btn btn-primary" data-secs="300">5 minutes</button>
+          </div>
+        </div>
+        <div class="card" id="timer-game" hidden>
+          <div class="timer-head">
+            <div class="timer-display" id="timer-display">60</div>
+            <div class="timer-score">Score <b id="timer-score-lbl">0</b></div>
+          </div>
+          <div class="q-text q-text-sm" id="timer-q"></div>
+          <form class="answer" id="timer-form" autocomplete="off">
+            <div class="opts" id="timer-opts" role="group" aria-label="Answer options"></div>
+            <label class="sr-only" for="timer-input">Answer</label>
+            <input class="input input-lg" id="timer-input" type="text" hidden aria-hidden="true" tabindex="-1">
+            <div class="btn-row">
+              <button type="submit" class="btn btn-primary" id="timer-submit">Submit</button>
+              <button type="button" class="btn btn-ghost" id="timer-skip">Skip</button>
+              <button type="button" class="btn btn-ghost btn-danger" id="timer-stop">Stop</button>
+            </div>
+          </form>
+          <div id="timer-fb" class="timer-fb" aria-live="polite"></div>
+        </div>
+        <div class="card result-card" id="timer-result" hidden>
+          <div class="muted">Time's up</div>
+          <div class="result-score" id="timer-final"></div>
+          <p class="result-msg" id="timer-msg"></p>
+          <button class="btn btn-primary" id="timer-again">Try again</button>
+        </div>
+      </section>
+
+      <!-- EXAM SKILLS GUIDE -->
+      <section class="panel" id="panel-guide" data-title="Exam skills guide" hidden>
+        <p class="lede">How Higher English is assessed from session 2026–27, and how to answer every type of question. Based on the Qualifications Scotland Higher English course specification (v6.0, September 2025), the changes to the Scottish text section published on 3 June 2026, and the specimen question papers.</p>
+        <div class="formula-sections">
+          <div class="fs"><h2>The course assessment</h2>
+            <div class="formula-grid">
+              <div class="fc"><div class="fct">Reading for Understanding, Analysis &amp; Evaluation <span class="tag tag-given">30%</span></div>30 marks · 1 hour 30 minutes · two unseen non-fiction passages linked by theme. Questions on Passage 1, then one 5-mark question on both passages.</div>
+              <div class="fc"><div class="fct">Critical Reading <span class="tag tag-given">40%</span></div>40 marks · 1 hour 45 minutes. Section 1: Scottish text (20). Section 2: critical essay (20). A different genre in each section, and never the same text twice.</div>
+              <div class="fc"><div class="fct">Portfolio–writing <span class="tag tag-given">30%</span></div>ONE piece, broadly creative or broadly discursive, marked out of 15 and doubled to 30. Max 1,300 words (a penalty applies if more than 10% over). No minimum.</div>
+              <div class="fc"><div class="fct">Spoken language</div>Achieved / not achieved — but you must achieve it to get the course award. Group discussion and/or a presentation where you answer audience questions.</div>
+              <div class="fc"><div class="fct">2027 exam date</div>Friday 7 May 2027 (morning): RUAE 09:00–10:30, Critical Reading 11:00–12:45. Source: Qualifications Scotland 2027 timetable (v02, August 2026).</div>
+              <div class="fc"><div class="fct">What changed for 2026–27</div>Scottish text: the final question drops from 10 to 8 marks (2 commonality + 2 extract + 4 elsewhere) and the extract questions rise from 10 to 12 marks. The paper is still 40 marks. Nothing else in the course changed.</div>
+            </div>
+          </div>
+          <div class="fs"><h2>RUAE question types</h2>
+            <div class="formula-grid">
+              <div class="fc"><div class="fct">Understanding — "use your own words"</div>No marks for straight lifts. Find the key ideas and gloss them. Usually 1 mark per clear point; "explain fully" needs developed points.</div>
+              <div class="fc"><div class="fct">Analysis — "analyse how…"</div>Quote + comment. 2 marks for a detailed/insightful comment, 1 for a basic one, 0 for a quotation alone. "At least two examples" = 2+2, 2+1+1 or 1+1+1+1.</div>
+              <div class="fc"><div class="fct">Word choice</div>Quote the word → its connotations → what that shows about the writer's ideas or attitude.</div>
+              <div class="fc"><div class="fct">Imagery</div>Literal root of the image → how it applies to the subject → the effect. "Just as a tsunami…, so the complaints…"</div>
+              <div class="fc"><div class="fct">Sentence structure</div>Lists, repetition, short/minor sentences, questions, inversion, climax/anticlimax, parallel structure — always tied to WHAT is being emphasised.</div>
+              <div class="fc"><div class="fct">Punctuation</div>Colon (explanation/list) · semicolon (balance/contrast) · dashes (aside/dramatic addition) · inverted commas (sarcasm) · ellipsis (pause/omission).</div>
+              <div class="fc"><div class="fct">Tone</div>Name it precisely (sarcastic, nostalgic, dismissive…) and analyse the language that creates it.</div>
+              <div class="fc"><div class="fct">Link / structure</div>Show the words that refer BACK to the previous idea and the words that introduce the NEW idea. "Function" questions ask what job a paragraph does.</div>
+              <div class="fc"><div class="fct">Evaluation</div>Analyse, then judge effectiveness — e.g. how a conclusion echoes ideas or images from the opening.</div>
+              <div class="fc"><div class="fct">Final question — 5 marks</div>Three key areas of agreement (or disagreement) supported from BOTH passages. 3 areas = 3; with appropriate evidence = 4; with detailed/insightful evidence = 5. Bullet points are allowed.</div>
+            </div>
+          </div>
+          <div class="fs"><h2>Critical Reading — Section 1: Scottish text</h2>
+            <div class="formula-grid">
+              <div class="fc"><div class="fct">What you get</div>An extract (or a whole poem) from the set text you studied, with questions worth 12 marks, then a final 8-mark question.</div>
+              <div class="fc"><div class="fct">Extract questions</div>Like RUAE analysis: quotation + comment on language, characterisation, mood, theme. 2 marks for detailed comment, 1 for basic, 0 for quotation alone.</div>
+              <div class="fc"><div class="fct">Final question — 8 marks</div><b>2</b> commonality (what links the extract to the rest of the text, in terms of the question) · <b>2</b> the extract · <b>4</b> elsewhere in the text/other poems or stories.</div>
+              <div class="fc"><div class="fct">How to revise</div>For each theme of your text, learn 4–6 short quotations from DIFFERENT parts of the text (or different poems). Practise writing commonality statements.</div>
+            </div>
+          </div>
+          <div class="fs"><h2>Critical Reading — Section 2: critical essay</h2>
+            <div class="formula-grid">
+              <div class="fc"><div class="fct">The task</div>Choose one question (from a choice of three in your genre) and write an essay on a text you have studied — drama, prose, poetry, film &amp; TV drama or language. Must be a different genre from Section 1.</div>
+              <div class="fc"><div class="fct">Structure</div>Introduction (title, writer, key words of the question, line of thought) → 4–6 PEAE paragraphs → conclusion that evaluates the text as a whole.</div>
+              <div class="fc"><div class="fct">Marking bands</div>20–19 · 18–16 · 15–13 · 12–10 · 9–6 · 5–0. Judged on knowledge &amp; understanding, analysis and evaluation.</div>
+              <div class="fc"><div class="fct">Key band words</div>Analysis: perceptive → detailed → clear → adequate → limited. Evaluation: committed → engaged → clear → adequate.</div>
+              <div class="fc"><div class="fct">Technical accuracy</div>Few errors in spelling, grammar, sentence construction, punctuation and paragraphing; understood at first reading. If not met (or irrelevant), maximum 9 marks.</div>
+              <div class="fc"><div class="fct">Timing</div>About 45–50 minutes, including 5 minutes to plan. Keep every paragraph tied to the question's wording.</div>
+            </div>
+          </div>
+          <div class="fs"><h2>Portfolio–writing</h2>
+            <div class="formula-grid">
+              <div class="fc"><div class="fct">Broadly creative</div>Personal/reflective essay · short story or episode · poem or linked poems · drama script. Top band: strong creative qualities, skilful command of genre, mature reflection, strong sense of personality.</div>
+              <div class="fc"><div class="fct">Broadly discursive</div>Argumentative or persuasive essay · report · informative writing. Top band: skilful research and selection, strong sustained line of thought, convincing stance.</div>
+              <div class="fc"><div class="fct">Rules</div>First draft in class under supervision (up to 4 hours). Teacher feedback on ONE draft only. Acknowledge all sources. Using generative AI for anything other than suggesting source material is plagiarism.</div>
+              <div class="fc"><div class="fct">Marks</div>Bands 15–13 · 12–10 · 9–7 · 6–4 · 3–1 · 0. Consistent technical accuracy is needed for 9–7 and above.</div>
+            </div>
+          </div>
+          <div class="fs"><h2>Scottish set texts for Higher (valid from 2025–26)</h2>
+            <div class="formula-grid">
+              <div class="fc"><div class="fct">Drama</div>Sequamur — Donald S Murray · Men Should Weep — Ena Lamont Stewart · The Slab Boys — John Byrne</div>
+              <div class="fc"><div class="fct">Prose</div>Dr Jekyll and Mr Hyde — R L Stevenson · The Sunlight Pilgrims — Jenni Fagan · Iain Crichton Smith: The Red Door, Mother and Son, The Painter, The Existence of the Hermit · Scottish short stories: A Voice Spoke to Me at Night (Helen McClory), Things My Wife and I Found Hidden in Our House (Kirsty Logan), Andrina (George Mackay Brown), Death in a Nut (as told by Duncan Williamson)</div>
+              <div class="fc"><div class="fct">Poetry (1)</div>Carol Ann Duffy: Originally, Mrs Midas, In Mrs Tilscher's Class, Medusa, Havisham, Before You Were Mine · Norman MacCaig: Aunt Julia, Hotel Room 12th Floor, Basking Shark, On Lachie's Croft, Landscape and I, Old Highland Woman · Liz Lochhead: My Rival's House, Last Supper, Box Room, For My Grandmother Knitting, The Spaces Between, Sorting Through</div>
+              <div class="fc"><div class="fct">Poetry (2)</div>Don Paterson: Waking with Russell, 11:00: Baldovan, The Circle, The Thread, The Swing, Why Do You Stay Up So Late? · Imtiaz Dharker: Bairn, Bloom, Letters to Glasgow, Send This, Stitch, The Knot · Kathleen Jamie: Crossing the Loch, Mr and Mrs Scotland are Dead, Ospreys, Song of Sunday, The Morrow-bird, What the Clyde said, after COP26</div>
+              <div class="fc"><div class="fct">Higher Scottish poetry collection</div>Thomas the Rhymer (traditional ballad) · Composed in August — Robert Burns · The Bonnie Broukit Bairn — Hugh MacDiarmid · Summit of Corrie Etchachan — Nan Shepherd · Da Clearance — Rhoda Bulter · 33 — MacGillivray</div>
+              <div class="fc"><div class="fct">Source</div>"Scottish texts for National 5 and Higher English courses" (November 2024), live from 2025–26 and due to stay for at least four years. Your teacher chooses which text you study.</div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ESSAY PLANNER -->
+      <section class="panel" id="panel-essays" data-title="Essay planner" hidden>
+        <p class="lede">Exam-style critical essay questions with plans, plus templates for the 8-mark Scottish text final question. Write your own plan first (5 minutes), then open the plan to compare. Use the plans for texts you have studied — and remember Section 2 must be a different genre from your Scottish text.</p>
+        <div class="toolbar">
+          <label class="field">
+            <span class="field-label">Show</span>
+            <select id="essay-filter"></select>
+          </label>
+        </div>
+        <div id="essay-list"></div>
+      </section>
+
+      <!-- NOTEPAD -->
+      <section class="panel" id="panel-notepad" data-title="Notepad" hidden>
+        <div class="card">
+          <div class="btn-row notepad-tools">
+            <button class="btn btn-ghost btn-sm" id="note-copy">Copy</button>
+            <button class="btn btn-ghost btn-sm" id="note-download">Download</button>
+            <button class="btn btn-ghost btn-sm btn-danger" id="note-clear">Clear</button>
+            <span class="muted small" id="note-status">Saved on this device</span>
+          </div>
+          <label class="sr-only" for="notepad-text">Notes</label>
+          <textarea id="notepad-text" class="notepad" placeholder="Plan essays, collect quotations, jot down techniques or draft portfolio ideas here…"></textarea>
+        </div>
+      </section>
+
+      <!-- PROGRESS -->
+      <section class="panel" id="panel-progress" data-title="Progress" hidden>
+        <div class="stats-grid" id="stats-grid"></div>
+        <div class="card">
+          <h2 class="card-title">Topics</h2>
+          <p class="muted small">Sorted weakest first, so you know where to focus.</p>
+          <div id="topic-prog"></div>
+        </div>
+        <div class="two-col">
+          <div class="card">
+            <h2 class="card-title">Timed challenge best scores</h2>
+            <div id="leaderboard"></div>
+          </div>
+          <div class="card">
+            <h2 class="card-title">Mock test history</h2>
+            <div id="mock-history"></div>
+          </div>
+        </div>
+        <button class="btn btn-ghost btn-danger btn-sm" id="reset-prog">Reset all progress</button>
+      </section>
+
+      <!-- RESOURCES -->
+      <section class="panel" id="panel-resources" data-title="Links &amp; tips" hidden>
+        <div class="two-col">
+          <div class="card">
+            <h2 class="card-title">Useful websites</h2>
+            <div class="link-list">
+              <a class="link-row" href="https://www.sqa.org.uk/sqa/47904.html" target="_blank" rel="noopener"><span><b>Higher English — Qualifications Scotland</b><small>Course specification, specimen papers, 2026–27 changes, course reports</small></span><svg class="ico"><use href="#i-external"/></svg></a>
+              <a class="link-row" href="https://www.sqa.org.uk/files_ccc/202411-scottish-texts-n5-h-english.pdf" target="_blank" rel="noopener"><span><b>Scottish set text list (valid from 2025–26)</b><small>Includes the full text of the copyright-free collection poems</small></span><svg class="ico"><use href="#i-external"/></svg></a>
+              <a class="link-row" href="https://www.sqa.org.uk/pastpapers/findpastpaper.htm" target="_blank" rel="noopener"><span><b>Past papers and marking instructions</b><small>Remember: before 2026–27 the Scottish text final question was worth 10, not 8</small></span><svg class="ico"><use href="#i-external"/></svg></a>
+              <a class="link-row" href="https://www.understandingstandards.org.uk/Subjects/English/higher" target="_blank" rel="noopener"><span><b>Understanding Standards</b><small>Real candidate work with marker commentaries</small></span><svg class="ico"><use href="#i-external"/></svg></a>
+              <a class="link-row" href="https://www.bbc.co.uk/bitesize/subjects/zxtnvcw" target="_blank" rel="noopener"><span><b>BBC Bitesize — Higher English</b><small>Guides to RUAE, critical reading and many set texts</small></span><svg class="ico"><use href="#i-external"/></svg></a>
+              <a class="link-row" href="https://www.scottishpoetrylibrary.org.uk/learning/sqa-set-texts/" target="_blank" rel="noopener"><span><b>Scottish Poetry Library — set texts</b><small>Read the set poems and find learning resources</small></span><svg class="ico"><use href="#i-external"/></svg></a>
+              <a class="link-row" href="https://asls.org.uk/" target="_blank" rel="noopener"><span><b>Association for Scottish Literature</b><small>Teaching notes, Sequamur and set-text resources</small></span><svg class="ico"><use href="#i-external"/></svg></a>
+              <a class="link-row" href="https://www.scottishbooktrust.com/learning-resources/sqa-set-texts-discussion-guides" target="_blank" rel="noopener"><span><b>Scottish Book Trust — set text discussion guides</b><small>Discussion questions and what to read next</small></span><svg class="ico"><use href="#i-external"/></svg></a>
+            </div>
+          </div>
+          <div class="card">
+            <h2 class="card-title">Exam tips</h2>
+            <ul class="tips-list">
+              <li><b>Quote, then comment.</b> In RUAE and the Scottish text, a quotation on its own earns 0 marks.</li>
+              <li><b>Own words.</b> In understanding questions, no marks for straight lifts.</li>
+              <li><b>Answer the question asked.</b> Use its key words in every essay paragraph.</li>
+              <li><b>Know the 8-mark split.</b> Scottish text final question: 2 commonality, 2 extract, 4 elsewhere (from 2026–27).</li>
+              <li><b>Different genres.</b> Your critical essay must be a different genre from your Scottish text.</li>
+              <li><b>Watch the clock.</b> Leave 15 minutes for the RUAE final question; split Critical Reading roughly in half.</li>
+              <li><b>Accuracy matters.</b> An essay with significant technical errors is capped at 9 out of 20.</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <!-- SHOP -->
+      <section class="panel" id="panel-shop" data-title="Resources shop" hidden>
+        <p class="lede">Study guides, set texts and kit that help with Higher English. Check with your teacher which set text and edition you need before buying. Links go to Amazon — this site may earn a small commission at no extra cost to you. As an Amazon Associate we earn from qualifying purchases.</p>
+        <div id="shop-sections"></div>
+      </section>
+
+      <!-- SETTINGS -->
+      <section class="panel" id="panel-settings" data-title="Settings" hidden>
+        <div class="card settings">
+          <label class="setting">
+            <span class="setting-label">Your name</span>
+            <input class="input" type="text" id="student-name" placeholder="Enter your name" maxlength="30">
+          </label>
+          <label class="setting">
+            <span class="setting-label">Exam date (for the countdown)</span>
+            <input class="input" type="date" id="exam-date">
+          </label>
+          <div class="setting">
+            <span class="setting-label" id="goal-label">Daily question goal</span>
+            <div class="segmented" role="radiogroup" aria-labelledby="goal-label" id="goal-seg">
+              <button role="radio" data-goal="5">5</button>
+              <button role="radio" data-goal="10">10</button>
+              <button role="radio" data-goal="20">20</button>
+              <button role="radio" data-goal="30">30</button>
+            </div>
+          </div>
+          <div class="setting">
+            <span class="setting-label" id="mode-label">Appearance</span>
+            <div class="segmented" role="radiogroup" aria-labelledby="mode-label" id="mode-seg">
+              <button role="radio" data-mode="system">System</button>
+              <button role="radio" data-mode="light">Light</button>
+              <button role="radio" data-mode="dark">Dark</button>
+            </div>
+          </div>
+          <div class="setting">
+            <span class="setting-label" id="accent-label">Colour</span>
+            <div class="swatches" role="radiogroup" aria-labelledby="accent-label" id="accent-seg">
+              <button role="radio" data-accent="saltire" aria-label="Saltire blue"></button>
+              <button role="radio" data-accent="thistle" aria-label="Thistle purple"></button>
+              <button role="radio" data-accent="loch" aria-label="Loch teal"></button>
+              <button role="radio" data-accent="heather" aria-label="Heather pink"></button>
+              <button role="radio" data-accent="whisky" aria-label="Whisky amber"></button>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <h2 class="card-title">About</h2>
+          <p class="muted">Covers Higher English (Qualifications Scotland, formerly SQA) with 492 practice questions (459 quick-quiz across three levels and 33 exam-style with marking points), 103 flashcards, 20 essay and final-question plans, 2 RUAE mock papers and 3 timed knowledge tests. It covers RUAE skills, the critical essay, every text on the current Scottish set text list (valid from 2025–26), the portfolio and spoken language. Written to the course specification (v6.0, September 2025) and the 2026–27 changes to the Scottish text section. Quotations are kept short and only used where they appear in official marking instructions or the published set-text list. Your progress is saved in this browser only — nothing is sent anywhere. Once loaded, the app also works offline. Not affiliated with Qualifications Scotland.</p>
+        </div>
+      </section>
+
+    </main>
+
+    <footer class="site-footer">
+      <div class="footer-about">
+        <h2>Free Higher English revision for Scottish pupils</h2>
+        <p>Practise for Higher English with quick quizzes, exam-style questions you mark against marking points, RUAE mock papers with original passages, timed knowledge tests, critical essay plans and flashcards — updated for the 2026–27 changes to the Critical Reading paper.</p>
+        <p><b>Reading for Understanding, Analysis and Evaluation:</b> own-words questions, word choice, imagery, sentence structure, punctuation, tone, link questions, evaluation and the 5-mark final question.</p>
+        <p><b>Critical Reading:</b> every Scottish set text — The Slab Boys, Sequamur, Men Should Weep, Dr Jekyll and Mr Hyde, The Sunlight Pilgrims, Iain Crichton Smith, the Scottish short story collection, Duffy, MacCaig, Lochhead, Paterson, Dharker, Jamie and the Higher poetry collection — plus critical essay skills for drama, prose, poetry, film and language.</p>
+        <p><b>Portfolio–writing:</b> broadly creative and broadly discursive writing, word limits and marking criteria.</p>
+      </div>
+      <div class="footer-base">
+        <span>© Higher English Scotland · Free revision for Scottish students</span>
+        <span>Not affiliated with Qualifications Scotland (SQA)</span>
+      </div>
+    </footer>
+  </div>
+</div>
+
+<!-- Mobile tab bar -->
+<nav class="tabbar" aria-label="Main navigation">
+  <a href="#practice" data-nav="practice"><svg class="ico"><use href="#i-practice"/></svg><span>Practice</span></a>
+  <a href="#topics" data-nav="topics"><svg class="ico"><use href="#i-topics"/></svg><span>Topics</span></a>
+  <a href="#mock" data-nav="mock"><svg class="ico"><use href="#i-mock"/></svg><span>Mock</span></a>
+  <a href="#progress" data-nav="progress"><svg class="ico"><use href="#i-progress"/></svg><span>Progress</span></a>
+  <button id="more-btn" aria-expanded="false" aria-controls="more-sheet"><svg class="ico"><use href="#i-more"/></svg><span>More</span></button>
+</nav>
+<div class="sheet-backdrop" id="sheet-backdrop" hidden></div>
+<div class="sheet" id="more-sheet" hidden role="dialog" aria-label="More pages">
+  <a href="#worksheets" data-nav="worksheets"><svg class="ico"><use href="#i-worksheets"/></svg>Quizzes</a>
+  <a href="#flashcards" data-nav="flashcards"><svg class="ico"><use href="#i-flashcards"/></svg>Flashcards</a>
+  <a href="#timer" data-nav="timer"><svg class="ico"><use href="#i-timer"/></svg>Timed challenge</a>
+  <a href="#guide" data-nav="guide"><svg class="ico"><use href="#i-skills"/></svg>Exam skills</a>
+  <a href="#essays" data-nav="essays"><svg class="ico"><use href="#i-essay"/></svg>Essay planner</a>
+  <a href="#notepad" data-nav="notepad"><svg class="ico"><use href="#i-notepad"/></svg>Notepad</a>
+  <a href="#resources" data-nav="resources"><svg class="ico"><use href="#i-resources"/></svg>Links &amp; tips</a>
+  <a href="#shop" data-nav="shop"><svg class="ico"><use href="#i-shop"/></svg>Shop</a>
+  <a href="#settings" data-nav="settings"><svg class="ico"><use href="#i-settings"/></svg>Settings</a>
+</div>
+
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+<div class="install-banner" id="install-banner" hidden>
+  <div id="install-text"><b>Install Higher English</b><small>Add it to your home screen — works offline.</small></div>
+  <div id="ios-text" hidden><b>Add to your Home Screen</b><small>Tap <svg class="ico ios-share" aria-label="Share"><use href="#i-share"/></svg> <b>Share</b>, then <b>Add to Home Screen</b>. It works like an app, even offline.</small></div>
+  <div class="btn-row">
+    <button class="btn btn-primary btn-sm" id="install-btn">Install</button>
+    <button class="btn btn-ghost btn-sm" id="dismiss-install" aria-label="Dismiss">Not now</button>
+  </div>
+</div>
+
+<script src="assets/data.js?v=1"></script>
+<script src="assets/app.js?v=1"></script>
+</body>
+</html>
